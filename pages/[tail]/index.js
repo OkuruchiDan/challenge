@@ -12,7 +12,6 @@ const Tail = ({dataFromApp: long_tails, exampleJson, query }) => {
     return (
         <div>
             <div className="container-80">
-                <div className={"divider"}/>
                 <div className="button-wrapper-90">
                     <div className="title">
                         {result ? result.title : '..loading'}
@@ -21,7 +20,6 @@ const Tail = ({dataFromApp: long_tails, exampleJson, query }) => {
                         {result ? result.description : '..loading'}
                     </div>
                 </div>
-                <div className={"divider"}/>
             </div>
         </div>
     );

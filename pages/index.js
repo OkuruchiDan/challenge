@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home({dataFromApp: long_tails}) {
     return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <meta name="challenge" content="app using hasura nextjs and remote postgress db" />
