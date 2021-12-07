@@ -15,14 +15,11 @@ You can find `.env.example` file in root of this project , that will have values
 ```
 HASURA_API_URL=
 HASURA_ADMIN_SECRET=
-JSON_FILE_PATH=
 ```
 
 `HASURA_API_URL` - this is URL of hasura project (using API rest, not GraphQL).
 
 `HASURA_ADMIN_SECRET` - this is a key for authorization on Hasura.
-
-`JSON_FILE_PATH` - this is a path to you example.json file.
 
 Second, run the development server:
 
