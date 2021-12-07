@@ -1,13 +1,17 @@
+## What is it
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 This project about complete [challenge](https://gist.github.com/istarkov/2fd23c75bba220571cf4bb03246c5c05).
+
 Using [Hasura](https://hasura.io/) for REST api calls.
+
 Using Postgres database on Heroku that created with `Create Heroku Database` in [Hasura](https://hasura.io/)
 
 ## Getting Started
 
 First, configure the `.env.local` file.
-```
+```bash
 cp .env.example .env.local
 ```
 You can find `.env.example` file in root of this project , that will have values like: 
@@ -32,3 +36,11 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 The home page of app will show you a menu with 3 links, that will redirect you to results pages.
+
+## Deployment
+You can find it by this [LINK](https://challenge-five-gamma.vercel.app/). 
+
+This app deployed using [Vercel](https://vercel.com/).
+With environment configuration like in `.env.example`.
+All other configs are defaults for [Vercel](https://vercel.com/).
+
