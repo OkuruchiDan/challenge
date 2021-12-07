@@ -17,7 +17,7 @@ HASURA_API_URL=
 HASURA_ADMIN_SECRET=
 ```
 
-`HASURA_API_URL` - this is URL of hasura project (using API rest, not GraphQL).
+`HASURA_API_URL` - this is URL of hasura project (using API rest).
 
 `HASURA_ADMIN_SECRET` - this is a key for authorization on Hasura.
 

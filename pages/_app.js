@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps, dataFromApp, exampleJson,query, error }) 
 MyApp.getInitialProps = async (appContext) => {
   try {
     const appProps = await App.getInitialProps(appContext);
+    //fetch to Hasura for getting all data(from postgres and from example.json too)
     const res = await fetch(process.env.HASURA_API_URL + '/all_data', {
       headers: {
         'content-type': 'application/json',

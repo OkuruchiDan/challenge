@@ -7,7 +7,7 @@ const Tail = ({dataFromApp: long_tails, exampleJson, query }) => {
         const jsonId = foundedTail && foundedTail.json_id
         const tailFromJson = jsonId && exampleJson.find(el => el.id.toString() === jsonId.toString())
         setResult(tailFromJson)
-    }, [query, long_tails])
+    }, [query, long_tails, exampleJson])
 
     return (
         <div>

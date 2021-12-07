@@ -10,13 +10,13 @@ export default function Home({dataFromApp: long_tails}) {
       </Head>
 
         <div className="container-80">
-            <div className={"divider"}/>
             <div className="button-wrapper-90">
                 {long_tails && long_tails.map((tail, i) =>
-                        <a className="btn-grad" key={i} target={'_blank'} href={'/' + tail.tail}>{tail.tail}</a>
+                        <a className="btn-grad" key={i} target={'_blank'} rel="noreferrer" href={'/' + tail.tail}>
+                            {tail.tail}
+                        </a>
                 )}
             </div>
-            <div className={"divider"}/>
         </div>
     </div>
   )
