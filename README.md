@@ -20,7 +20,7 @@ The `example.json` file is keeping in [glitch](https://glitch.com/) as a simple 
 
 Firstly was generated a simple GraphQl query depends on database structure.The next step was about create an [Action](https://hasura.io/docs/latest/graphql/core/actions/index.html) and [Action handlers](https://hasura.io/docs/latest/graphql/core/actions/action-handlers.html).
 
-Relative to the documentation [Action handlers](https://hasura.io/docs/latest/graphql/core/actions/action-handlers.html) was created and deployed with [glitch](https://glitch.com/), we use it for get the example.json and throw to our [Hasura]() app.
+Relative to the documentation [Action handlers](https://hasura.io/docs/latest/graphql/core/actions/action-handlers.html) was created and deployed with [glitch](https://glitch.com/), we use it for get the `example.json` file and throw it to our [Hasura]() app.
 
 ### API REST configuration
 
