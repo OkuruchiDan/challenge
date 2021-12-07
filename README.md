@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-###This project about complete [challenge](https://gist.github.com/istarkov/2fd23c75bba220571cf4bb03246c5c05).
+### This project about complete [challenge](https://gist.github.com/istarkov/2fd23c75bba220571cf4bb03246c5c05).
 
 ## [Hasura Section](https://hasura.io/)
 
