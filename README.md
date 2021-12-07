@@ -57,7 +57,7 @@ The home page of app will show you a menu with 3 links, that will redirect you t
 
 ## Deployment
 
-###App
+### App
 
 You can find it by this [LINK](https://challenge-five-gamma.vercel.app/). 
 
@@ -65,6 +65,6 @@ This app deployed using [Vercel](https://vercel.com/).
 With environment configuration like in `.env.example`.
 All other configs are defaults for [Vercel](https://vercel.com/).
 
-###Glitch
+### Glitch
 All glitch project that was mentioned in this doc have a default options of configuration.
 
